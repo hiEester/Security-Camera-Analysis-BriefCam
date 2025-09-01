@@ -1,4 +1,4 @@
-# Security-Camera-Analysis-BriefCam-Collaboration.
+# Security Camera Analysis-BriefCam Collaboration.
 A Python-based system for real-time object detection and tracking using a Raspberry Pi camera and a Windows server.
 The Raspberry Pi captures and streams images via sockets, while the server processes them with OpenCV and stores the results in CSV format.
 
