@@ -2,31 +2,24 @@
 A Python-based system for real-time object detection and tracking using a Raspberry Pi camera and a Windows server.
 The Raspberry Pi captures and streams images via sockets, while the server processes them with OpenCV and stores the results in CSV format.
 
-Features:
+# Features:
 
 -Capture images directly from Raspberry Pi camera
-
 -Send image data to a Windows machine using sockets
-
 -Detect and track objects/faces with OpenCV
-
 -Store results in structured CSV files
-
 -Works even with low-performance hardware (Raspberry Pi)
-
 -Tech Stack
 
 
-Language: Python 3
+# Language: Python 3
 
 Core Libraries: OpenCV, numpy, pandas, imutils, Pillow, socket
-
-Hardware: Raspberry Pi (Linux) + Windows PC
-
+Hardware: Raspberry Pi (Linux) + Windows P
 Development Environments: PyCharm, Thonny
 
 
-📂 Project Structure
+# 📂 Project Structure
 Security-Camera-Analysis-BriefCam/
 │
 ├── raspberry/        # Raspberry Pi side
@@ -41,15 +34,15 @@ Security-Camera-Analysis-BriefCam/
 │
 └── README.md
 
-Installation
-# Clone repository
+# Installation
+Clone repository
 git clone https://github.com/hiEester/Security-Camera-Analysis-BriefCam.git
 cd Security-Camera-Analysis-BriefCam
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-Usage
+# Usage
 On Raspberry Pi (image capture & send):
 python raspberry/capture.py
 
